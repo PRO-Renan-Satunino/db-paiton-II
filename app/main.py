@@ -7,7 +7,7 @@ def main():
     repository = UsuarioRepository(session)
     service = UsuarioServices(repository)
 
-    service.criar_usuario("Mateus Brasileiro", "matue30@gmail.com", "333")
+    service.criar_usuario("Cleriton Savio", "teto30@gmail.com", "30p1")
 
     print("\nListando todos os usuarios.")
     usuarios = service.listar_todos_usuarios()
